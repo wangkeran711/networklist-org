@@ -1,4 +1,51 @@
-[
+[{{
+    "name": "FUSNChain",
+    "chainId": 8370,
+    "shortName": "FUSN",
+    "chain": "FUSN",
+    "network": "mainnet",
+    "networkId": 100,
+    "nativeCurrency": {
+        "name": "FUSN",
+        "symbol": "FUSN",
+        "decimals": 18
+    },
+    "rpc": [
+        "(https://rpc.fusn.network/)",
+        "https://rpc.fusnnetwork.org/)",
+        "(https://rpc.fusnnetwork.uk/)",
+        
+    "name": "xDAI Chain",
+    "chainId": 100,
+    "shortName": "xdai",
+    "chain": "XDAI",
+    "network": "mainnet",
+    "networkId": 100,
+    "nativeCurrency": {
+        "name": "xDAI",
+        "symbol": "xDAI",
+        "decimals": 18
+    },
+    "rpc": [
+        "https://rpc.xdaichain.com",
+        "https://xdai.poanetwork.dev",
+        "wss://rpc.xdaichain.com/wss",
+        "wss://xdai.poanetwork.dev/wss",
+        "http://xdai.poanetwork.dev",
+        "https://dai.poa.network",
+        "ws://xdai.poanetwork.dev:8546"
+    ],
+    "faucets": [],
+    "infoURL": "https://forum.poa.network/c/xdai-chain",
+    "app_resource": {
+        "ic_chain_select": "https://tp-upload.cdn.bcebos.com/v1/blockChain/xDAI/1.png",//network icon selected status
+        "ic_chain_unselect": "https://tp-upload.cdn.bcebos.com/v1/blockChain/xDAI/0.png",//network icon unselected status in light mode
+        "ic_chain_unselect_dark": "",//network icon unselected status in dark mode
+        "color_chain_bg": "0x58B2AF",//wallet card backgroud color
+        "color_chain_text": "0xFFFFFF",//wallet card text color
+        "ic_home_logo":""//logo on top of asset page
+    }
+}
     {
         "name": "Ethereum Mainnet",
         "chainId": 1,
